@@ -108,14 +108,14 @@
         <snapshotRepository>
             <id>snapshot.repo.ebuilder.io</id>
             <name>ebuilder-snapshot</name>
-            <url>s3://repo.ebuilder.io/snapshot</url>
+            <url>https://artifacts.ebuilder.io/repository/eBuilder-maven-snapshot/</url>
             <uniqueVersion>true</uniqueVersion>
             <layout>default</layout>
         </snapshotRepository>
         <repository>
             <id>repo.ebuilder.io</id>
             <name>ebuilder-release</name>
-            <url>s3://repo.ebuilder.io/release</url>
+            <url>https://artifacts.ebuilder.io/repository/eBuilder-maven-release/</url>
             <uniqueVersion>false</uniqueVersion>
             <layout>default</layout>
         </repository>
